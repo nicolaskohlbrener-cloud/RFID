@@ -1,0 +1,18 @@
+int led = 7;
+void setup(){
+  pinMode(8,OUTPUT);
+  pinMode (led, OUTPUT);
+}
+void loop(){
+  //BUZZER
+  digitalWrite(8,HIGH);
+  delay(1000);
+  digitalWrite(8,LOW);
+  delay(1000);
+  // Luces LED
+  digitalWrite(led, HIGH);
+  delay(1000);
+  digitalWrite(led, LOW);
+  delay(1000);
+}
+
